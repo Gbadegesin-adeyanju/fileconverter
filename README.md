@@ -16,5 +16,8 @@ pip install -r requirements.txt
 python manage.py makemigrations <br>
 python manage.py migrate
 
+# static file
+python manage.py collectstatic
+
 # Runserver
 python manage.py runserver
