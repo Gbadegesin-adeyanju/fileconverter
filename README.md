@@ -1,25 +1,64 @@
-# fileconverter
+<div align="center">
+  <h1>File Converter</h1>
+  <img width="400" height="211" alt="File Converter demo" src="https://github.com/user-attachments/assets/71f12407-6554-4dab-9e13-488d5ce78b8e" />
+</div>
 
-https://github.com/Gbadegesin-adeyanju/fileconverter/commit/5de24712edbb8753588fca16e327678eb8bd09f0#commitcomment-190193097
+## About
 
-# Create vitual environment
+File Converter is a Django web app that handles everyday file conversion tasks in one place:
+
+- **CSV → XLSX** — convert spreadsheet data between formats
+- **PDF → DOCX** — turn PDFs into editable Word documents
+- **Voice → Text** — transcribe audio recordings
+- **Images → PDF** — combine one or more images into a single PDF
+
+## Prerequisites
+
+- Python 3.10+
+- pip
+
+## Installation
+
+### 1. Create a virtual environment
+
+```bash
 python -m venv venv_name
+```
 
-# Activate virtual environmemnt
-# Mac OS
+### 2. Activate the virtual environment
+
+**macOS / Linux**
+```bash
 source venv_name/bin/activate
-# Windows
+```
+
+**Windows**
+```bash
 venv_name\Scripts\activate.bat
+```
 
-# Install required packages
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Apply migrations
-python manage.py makemigrations <br>
+### 4. Apply database migrations
+
+```bash
 python manage.py migrate
+```
 
-# static file
+### 5. Collect static files
+
+```bash
 python manage.py collectstatic
+```
 
-# Runserver
+### 6. Run the development server
+
+```bash
 python manage.py runserver
+```
+
+The app will be available at `http://127.0.0.1:8000/`.
