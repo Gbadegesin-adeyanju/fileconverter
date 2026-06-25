@@ -60,5 +60,6 @@ python manage.py collectstatic
 ```bash
 python manage.py runserver
 ```
-
+## Note
+The user interface you see in `http://127.0.0.1:8000/` is different from the one in the video. The updated frontend with Next.js will be added soon
 The app will be available at `http://127.0.0.1:8000/`.
